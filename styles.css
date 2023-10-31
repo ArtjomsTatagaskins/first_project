@@ -15,20 +15,20 @@
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 10px 400px;
+    padding: 0.625em 25em;
 }
 
 .header-logo {
     font-weight: bold;
     align-self: center;
-    font-size: 24px;
+    font-size: 1.5em;
     color: #F9FAF8;
 }
 
 .header-links {
     display: flex;
-    gap: 12px;
-    font-size: 18px;
+    gap: 0.75em;
+    font-size: 1.125em;
     color: #E5E7EB;
     align-items: center;
 }
@@ -41,78 +41,78 @@
 .first_container {
     background-color: #1F2937;
     display: flex;
-    padding: 120px 400px; 
-    gap: 50px;
+    padding: 7.5em 25em; 
+    gap: 3.125em;
     flex: 1;
 }
 
 button {
     text-align: center;
-    padding: 10px 40px;
+    padding: 0.625em 2.5em;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 0.625em;
 }
 
 .first_container button {
     background-color: #3882FE;
-    margin: 10px 0;
+    margin: 0.625em 0;
     color: #E5E7EB;
-    border: 2px solid #FFF;
+    border: 0.125em solid #FFF;
 }
 
 .fourth_container button {
     background-color: #3882FE;
     color: #E5E7EB;
-    border: 2px solid #FFF;
+    border: 0.125em solid #FFF;
 }
 
 .fourth_container button:hover {
     background-color: #FFF;
     color: #3882FE;
-    border: 2px solid #FFF;
+    border: 0.125em solid #FFF;
 }
 
 .first_container button:hover {
     background-color: #FFF;
-    margin: 10px 0;
+    margin: 0.625em 0;
     color: #3882FE;
-    border: 2px solid #FFF;
+    border: 0.125em solid #FFF;
 }
 
 
 .right-side {
     background: #5c5858;
     opacity: 0.8;
-    padding: 5% 25%;
+    padding: 6.25em 12.5em;
 }
 
 .image-placeholder p {
-    font-size: 15px;
+    font-size: 1em;
     color: #E5E7EB;
     text-align: center;
 }
 
 .second_container {
-    padding: 70px 400px;
+    padding: 4.375em 25em;
 }
 
 .hero-main-text {
-    font-size: 48px;
+    font-size: 3em;
     font-weight: bold;
     color: #F9FAF8;
 }
 
 .hero-secondary-text {
-    font-size: 18px;
-    margin: 10px 0;
+    font-size: 1.125em;
+    margin: 0.625em 0;
     color: #E5E7EB;
 }
 
 .information-text {
-    font-size: 36px;
+    font-size: 2em;
     font-weight: bold;
     color: #1F2937;
-    padding-bottom: 40px;
+    padding-bottom: 2.5em;
 }
 
 .information-text p {
@@ -122,37 +122,37 @@ button {
 .images-container {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 4.375em;
 }
 
 .small-image {
-    width: 200px;
-    height: 200px;
-    border: 3px solid #3882FE;
-    border-radius: 15px;
+    width: 12.5em;
+    height: 12.5em;
+    border: 0.1875em solid #3882FE;
+    border-radius: 1em;
 }
 
 .subtext-container {
     display: flex;
-    gap: 70px;
+    gap: 4.375em;
     justify-content: center;
 }
 
 .subtext {
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
     opacity: 0.6;
-    width: 200px;
-    margin: 10px 0;
+    width: 12.5em;
+    margin: 0.625em 0;
 }
 
 .third_container {
     background-color: #E5E7EB;
-    padding: 100px 400px;
+    padding: 6.25em 25em;
 }
 
 #quote {
-    font-size: 36px;
+    font-size: 2em;
     font-style: italic;
     color: #1F2937;
     font-weight: 100;
@@ -166,11 +166,11 @@ button {
 
 .fourth_container {
     background-color: #3882FE;
-    font-size: 18px;
+    font-size: 1.125em;
     color: #E5E7EB;
-    margin: 100px 400px;
-    border-radius: 10px;
-    padding: 60px 60px;
+    margin: 6.25em 25em;
+    border-radius: 0.625em;
+    padding: 3.75em 3.75em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -178,8 +178,8 @@ button {
 
 .footer {
     background-color: #1F2937;
-    font-size: 18px;
+    font-size: 1.125em;
     text-align: center;
     color: #E5E7EB;
-    padding: 30px 400px;
+    padding: 1.875em 25em;
 }
