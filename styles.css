@@ -2,14 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 10px 300px;
+    padding: 10px 400px;
 }
 
 .header-logo {
@@ -35,13 +35,13 @@
 .first_container {
     background-color: #1F2937;
     display: flex;
-    padding: 60px 300px; 
+    padding: 120px 400px; 
     gap: 100px;
     flex-grow: 1;
 }
 
 .second_container {
-    padding: 50px 300px;
+    padding: 70px 400px;
 }
 
 .hero-main-text {
@@ -68,7 +68,7 @@
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .information-text p {
@@ -78,30 +78,50 @@
 .images-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 70px;
 }
 
 .small-image {
-    width: 100px;
-    height: 100px;
-    border: 2px solid #3882FE;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882FE;
     border-radius: 15px;
 }
 
 .third_container {
     background-color: #E5E7EB;
-    padding: 0 300px;
+    padding: 100px 400px;
 }
 
 #quote {
     font-size: 36px;
     font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
 }
 
 #author {
     font-weight: bold;
     text-align: right;
 }
+
+.fourth_container {
+    background-color: #3882FE;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 100px 400px;
+    border-radius: 10px;
+    padding: 60px 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 30px 400px;
+}
+
 
 /* .wrapper {
     position: relative;
