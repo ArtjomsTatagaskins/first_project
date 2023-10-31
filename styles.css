@@ -9,7 +9,7 @@
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 10px 200px;
+    padding: 10px 300px;
 }
 
 .header-logo {
@@ -35,13 +35,13 @@
 .first_container {
     background-color: #1F2937;
     display: flex;
-    padding: 60px 200px; 
+    padding: 60px 300px; 
     gap: 100px;
     flex-grow: 1;
 }
 
 .second_container {
-    padding: 10px 200px;
+    padding: 50px 300px;
 }
 
 .hero-main-text {
@@ -68,7 +68,7 @@
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
-    padding: 20px 0;
+    padding-bottom: 20px;
 }
 
 .information-text p {
@@ -87,3 +87,35 @@
     border: 2px solid #3882FE;
     border-radius: 15px;
 }
+
+.third_container {
+    background-color: #E5E7EB;
+    padding: 0 300px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#author {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* .wrapper {
+    position: relative;
+}
+
+.wrapper .footer {
+    position: absolute;
+    bottom: 0;
+    padding: 0 200px;
+    background-color: #1F2937;
+}
+
+.wrapper .footer p {
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+} */
