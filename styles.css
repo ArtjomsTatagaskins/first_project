@@ -26,3 +26,40 @@
     color: #E5E7EB;
     align-items: center;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.first_container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 60px; 
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right-side {
+    flex-basis: auto;
+}
+
+.information-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.information-text p {
+    text-align: center;
+}
